@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'staging', url: 'https://github.com/username/repository.git'
+                git branch: 'main', url: 'https://github.com/rajesh8939/Law-firm.git'
             }
         }
         stage('Build') {
